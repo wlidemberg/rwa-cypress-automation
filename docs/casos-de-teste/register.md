@@ -31,13 +31,14 @@ Validar que um visitante consigue criar um conta com dados válidos
 O sistema deve cadastrar o usuário e redireciona-lo para a tela de Login
 
 ### Resultado obtido
-Não Executado
+O sistema cadastrou o usuário e redirecionou para a teka de Login
 
 ### Evidência:
-
+https://www.awesomescreenshot.com/video/53664528?key=fc870654dae918f9b645f98921d03711
 
 ### Status:
-Não Executado
+Passou
+
 
 ## CT-REGISTER-02
 ### Título:
@@ -65,20 +66,21 @@ Validar que o sistema impede o cadastro quendo o campo First Name não é preenc
 O sistema deve exibir mensagem "First Name is required" e manter o botão Sign Up desabilitado
 
 ### Resultado obtido
-Não Executado
+Sistema exibiu mensagem "First Name is required" e mantece o bptão Sign Up desabilitado
 
 ### Evidência:
-Não Executado
+[Execução do teste](https://www.awesomescreenshot.com/video/53664630?key=3321299e1c992a47ccee3363cebc21d1)
 
 ### Status:
-Não Executado
+Passou
+
 
 ## CT-REGISTER-03
 ### Título:
 Cadastro sem preencher Last Name
 
 ### Objetivo:
-Validar que o sistema inpede o cadastro quando o campo Last Name não é preenchido
+Validar que o sistema impede o cadastro quando o campo Last Name não é preenchido
 
 ### Pré-condição:
 - Sistema Disponivel
@@ -100,13 +102,13 @@ Validar que o sistema inpede o cadastro quando o campo Last Name não é preench
 O sistema deve exibir mensagem "Last Name is required" e manter o botão Sign Up desabilitado
 
 ### Resultado obtido:
-Não Executado
+O sistema não habilitou o botão Sign Up quando o campo Last Name permaneceu vazio. A mensagem "Last Name is required" foi exibida após o campo receber foco e perder foco.
 
 ### Evidência:
-Não Executado
+[Execução do teste](https://www.awesomescreenshot.com/video/53664710?key=07c11ce057c694357f0516facb19dce1)
 
 ### Status:
-Não Executado
+Passou
 
 ## CT-REGISTER-04
 ### Título:
@@ -136,13 +138,14 @@ Validar se o sistema impede o cadastro quando o campo Username não é preenchid
 O sistema deve exibir mensagem "Username is required" e manter o botão Sign Uo desabilitado
 
 ### Resultado Obtido:
-Não Executado
+O sistema exibiu a mensagem "Username is required" e manteve o botão Sign Up desabilitado 
 
 ### Evidência:
-Não Executado
+[Execução dos testes](https://www.awesomescreenshot.com/video/53664963?key=30c6e71d538f068c76ed0c748b8fc121)
 
 ### Status:
-Não Executado
+Passou
+
 
 ## CT-REGISTER-05
 ### Título:
@@ -173,13 +176,13 @@ Validar se o sistema impede o cadastro quando o campo Password não é preenchid
 O sistema deve exibir mensagem "Enter your password" e manter botão Sign Up desabilitado
 
 ### Resusltado obtido:
-Não Executado
+O sistema exibiu a mensagem "Enter your password" e mateve o botão Sign Up desabilitado
 
 ### Evidência:
-Não Executado
+[Execução dos Testes](https://www.awesomescreenshot.com/video/53665011?key=313125eb12df32f3afe9ab216663dd3b)
 
 ### Status:
-Não Executado
+Passou
 
 ## CT-REGISTER-06
 ### Título:
@@ -207,14 +210,13 @@ Validar se o sistema impede cadastro quando o campo Confirm Password não é pre
 O sistema deve exibir mensagem "Confirm your password" e manter o botão Sign Up desabilitado
 
 ### Resultado obtido:
-Não Executado
+O sistema exibiu a mensagem "Confirm your password" e manteve o botão Sign Up desabilitado
 
 ### Evidência:
-Não Executado
+[Execução dos testes](https://www.awesomescreenshot.com/video/53665053?key=5b43121132e75531933fb3919b70e1e4)
 
 ### Status
-Não Executado
-
+Passou
 
 ## CT-REGISTER-07
 ### Título:
@@ -239,16 +241,16 @@ Validar se o sistema impede o cadastro quando o campo password é preenchido com
 4. Verificar comportamento do sistema
 
 ### Resultado esperado:
-O sistema de exibir mensagem "Password must contain at least 4 characters"
+O sistema de exibir mensagem "Password must contain at least 4 characters" e manter botão Sign Up desabilitado
 
 ### Resultado obtido:
-Não Executado
+o sistema exibiu a mensagem "Password must contain at least 4 charecters" e manteve o botão Sign Up desabilitado
 
 ### Evidência:
-Não Executado
+[Execução dos testes](https://www.awesomescreenshot.com/video/53665088?key=9b6eb33927e4243d6df023668a98c5d2)
 
 ### Status:
-Não Executado
+Passou
 
 
 ## CT-REGISTER-08
@@ -275,16 +277,16 @@ Validar se o sistema impede o cadastro quando o campo Confirm Password é preenc
 4. Verificar comportamento da tela
 
 ### Resultado esperado:
-O sistem deve exibir mensagem "Confirm does not match"
+O sistem deve exibir mensagem "Password does not match" e manter o botão Sign Up desabilitado    
 
 ### Resultado obtido:
-Não Executado
+O sistema exibiu a mensagem "password does not match" e manteve o botão Sign Up desabilitado
 
 ### Evidência:
-Não Executado
+[Execução dos teste](https://www.awesomescreenshot.com/video/53665163?key=8b065995dea2352015d8f62e5c437b38)
 
 ### Status
-Não Executado
+Passou
 
 ## CT-REGISTER-09
 ### Título:
@@ -314,10 +316,10 @@ Validar se o sistema impede o cadastro de um novo usuário quando username está
 O sistema não deve criar novo usuário utilizando username já existente
 
 ### Resultado obtido:
-Não Executado
+o sistema não criou novo usuário com username existente
 
 ### Evidência:
-Não Executado
+[Execução dos teste](https://www.awesomescreenshot.com/video/53665234?key=121b8702c598b76769af58fa6530f2a9)
 
 ### Status
-Não Executado
+Passei
